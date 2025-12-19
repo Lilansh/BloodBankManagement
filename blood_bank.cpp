@@ -42,6 +42,9 @@ void addDonor()
     cin.ignore();
     getline(cin, name);
 
+    cout << "Enter Age:";
+    cin >> age;
+
     if (age < 18 || age > 65)
     {
         cout << "Donor age must be between 18 and 65." << endl;
